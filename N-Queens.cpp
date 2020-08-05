@@ -3,9 +3,6 @@
 #include <cmath>
 using namespace std;
 
-
-
-
 void print(int array[], int c, int size){
 		cout << "This is solution number " << c << endl;
  		for (int i=0; i<size; i++)
@@ -13,9 +10,6 @@ void print(int array[], int c, int size){
 		cout << endl;
 		cout << endl;
 }
-
-
-
 
 void backtrack(int q[], int &c)
 {
@@ -29,8 +23,6 @@ void backtrack(int q[], int &c)
   }
 }
 
-
-
 bool good(int q[], int c){
 
     for (int i = 0; i < c; i++){
@@ -42,8 +34,6 @@ bool good(int q[], int c){
 return true;
 
 }
-
-
 
 int main() {
   // if (f()) cout << "false";
